@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"n2","type":"text","text":"📥 00_Inbox\n临时收集","fontSize":14,"backgroundColor":"#f08c00","x":40,"y":143,"width":170,"height":98,"color":"white"},
-		{"id":"n3","type":"text","text":"📂 03_Projects\n活跃项目","fontSize":14,"backgroundColor":"#2f9e44","x":230,"y":145,"width":170,"height":95,"color":"white"},
+		{"id":"n3","type":"text","text":"📂 03_Projects\n活跃项目","fontSize":14,"backgroundColor":"#2f9e44","x":230,"y":145,"width":170,"height":95,"color":"2"},
 		{"id":"n4","type":"text","text":"📘 04_Wiki\n稳定知识","fontSize":14,"backgroundColor":"#1971c2","x":420,"y":145,"width":170,"height":95,"color":"white"},
 		{"id":"n5","type":"text","text":"📆 每日蒸馏·\nAI 日报","fontSize":14,"backgroundColor":"#6741d9","x":40,"y":275,"width":170,"height":85,"color":"white"},
 		{"id":"n6","type":"text","text":"📓 Diary 个人空间\n日记复盘","fontSize":14,"backgroundColor":"#e64980","x":230,"y":275,"width":170,"height":85,"color":"white"},

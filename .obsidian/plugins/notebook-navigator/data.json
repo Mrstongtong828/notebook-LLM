@@ -23,11 +23,6 @@
         },
         {
           "type": "folder",
-          "path": "02_Wiki",
-          "label": "Wiki"
-        },
-        {
-          "type": "folder",
           "path": "03_Projects",
           "label": "项目"
         },
