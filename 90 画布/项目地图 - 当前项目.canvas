@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"center-project-map","type":"text","text":"# 项目地图 - 当前项目\n\n把正在推进的项目、资料、任务和交付物放在这里。","x":0,"y":0,"width":360,"height":160},
+		{"id":"projects-dir","type":"file","file":"03_Projects/README.md","x":-460,"y":-40,"width":320,"height":140},
+		{"id":"learning-dir","type":"text","text":"## 学习与项目\n\n路径：`03 学习与项目`\n\n用于放课程学习、技能练习、项目链接。","x":-460,"y":160,"width":320,"height":170},
+		{"id":"horizon-dir","type":"file","file":"Horizon/README_zh.md","x":460,"y":-220,"width":360,"height":180},
+		{"id":"data-guard","type":"file","file":"HOME/计算机设计大赛-网络与数据安全挑战赛.md","x":460,"y":20,"width":360,"height":180},
+		{"id":"portfolio","type":"file","file":"HOME/个人作品集网站搭建与素材收集.md","x":460,"y":260,"width":360,"height":160},
+		{"id":"project-rhythm","type":"text","text":"## 每个项目建议补齐\n\n- 目标\n- 当前状态\n- 下一步动作\n- 资料入口\n- 截止时间\n- 卡点","x":-40,"y":260,"width":360,"height":220}
+	],
+	"edges":[
+		{"id":"edge-center-projects","fromNode":"center-project-map","toNode":"projects-dir","fromSide":"left","toSide":"right"},
+		{"id":"edge-center-learning","fromNode":"center-project-map","toNode":"learning-dir","fromSide":"left","toSide":"right"},
+		{"id":"edge-center-horizon","fromNode":"center-project-map","toNode":"horizon-dir","fromSide":"top","toSide":"left"},
+		{"id":"edge-center-dataguard","fromNode":"center-project-map","toNode":"data-guard","fromSide":"right","toSide":"left"},
+		{"id":"edge-center-portfolio","fromNode":"center-project-map","toNode":"portfolio","fromSide":"bottom","toSide":"top"},
+		{"id":"edge-center-rhythm","fromNode":"center-project-map","toNode":"project-rhythm","fromSide":"bottom","toSide":"top"}
+	]
+}

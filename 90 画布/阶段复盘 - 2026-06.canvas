@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"center-review","type":"text","text":"# 阶段复盘 - 2026-06\n\n本月用这张图回看：做了什么、学了什么、哪里卡住、下一步怎么走。","x":0,"y":0,"width":380,"height":160},
+		{"id":"task-board","type":"file","file":"HOME/全任务看板.md","x":-520,"y":-260,"width":340,"height":170},
+		{"id":"diary","type":"text","text":"## 个人记录\n\n路径：`Diary个人空间`\n\n用来承接日记、阶段感受、个人兴趣探索。","x":-520,"y":0,"width":340,"height":170},
+		{"id":"campus","type":"text","text":"## 校园事务\n\n路径：`02 校园事务`\n\n复盘活动、组织事务、比赛和社团投入。","x":-520,"y":240,"width":340,"height":160},
+		{"id":"wins","type":"text","text":"## 本月完成\n\n- \n- \n- ","x":480,"y":-300,"width":320,"height":140},
+		{"id":"problems","type":"text","text":"## 卡点和问题\n\n- \n- \n- ","x":480,"y":-80,"width":320,"height":140},
+		{"id":"next-actions","type":"text","text":"## 下月动作\n\n- [ ] \n- [ ] \n- [ ] ","x":480,"y":140,"width":320,"height":160},
+		{"id":"archive","type":"text","text":"## 复盘后归档\n\n有长期价值的内容沉淀到 `02_Wiki` 或 `HOME`；临时材料清进 `99 附件`。","x":-20,"y":270,"width":420,"height":150}
+	],
+	"edges":[
+		{"id":"edge-center-board","fromNode":"center-review","toNode":"task-board","fromSide":"top","toSide":"right"},
+		{"id":"edge-center-diary","fromNode":"center-review","toNode":"diary","fromSide":"left","toSide":"right"},
+		{"id":"edge-center-campus","fromNode":"center-review","toNode":"campus","fromSide":"bottom","toSide":"right"},
+		{"id":"edge-center-wins","fromNode":"center-review","toNode":"wins","fromSide":"top","toSide":"bottom"},
+		{"id":"edge-center-problems","fromNode":"center-review","toNode":"problems","fromSide":"right","toSide":"left"},
+		{"id":"edge-center-next","fromNode":"center-review","toNode":"next-actions","fromSide":"right","toSide":"left"},
+		{"id":"edge-center-archive","fromNode":"center-review","toNode":"archive","fromSide":"bottom","toSide":"top"}
+	]
+}

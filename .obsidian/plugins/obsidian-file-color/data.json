@@ -1,0 +1,68 @@
+{
+  "cascadeColors": true,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "IXkch2ZLe2_8GY9moB8-2",
+      "name": "",
+      "value": "#5abf80"
+    },
+    {
+      "id": "kXEHpPqijKU4B22oJMm0J",
+      "name": "",
+      "value": "#e4f566"
+    },
+    {
+      "id": "v3lU15TuZC4-72GuaAMXt",
+      "name": "",
+      "value": "#814ad3"
+    },
+    {
+      "id": "8-2hxq8dPzn3bL4d2ilyA",
+      "name": "",
+      "value": "#268bd9"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "HOME/全任务看板.md",
+      "color": "IXkch2ZLe2_8GY9moB8-2"
+    },
+    {
+      "path": "HOME/更新小说.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    },
+    {
+      "path": "HOME/广航实验室重要事项记录.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    },
+    {
+      "path": "HOME/课程表.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    },
+    {
+      "path": "HOME/思科达牙科仪器检修售后小程序.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    },
+    {
+      "path": "HOME/咸鱼项目.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    },
+    {
+      "path": "HOME/吸收完25年真题，打通翻译题.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    },
+    {
+      "path": "HOME/个人作品集网站搭建与素材收集.md",
+      "color": "8-2hxq8dPzn3bL4d2ilyA"
+    },
+    {
+      "path": "HOME/github项目与文档收藏.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    },
+    {
+      "path": "HOME/大学课程  ➕ 2026-05-27.md",
+      "color": "v3lU15TuZC4-72GuaAMXt"
+    }
+  ]
+}

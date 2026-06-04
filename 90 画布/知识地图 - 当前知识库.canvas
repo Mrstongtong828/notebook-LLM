@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"center-knowledge-map","type":"text","text":"# 知识地图 - 当前知识库\n\n把输入、整理、沉淀和输出串起来。","x":0,"y":0,"width":360,"height":150},
+		{"id":"inbox","type":"file","file":"00_Inbox/README.md","x":-500,"y":-240,"width":320,"height":150},
+		{"id":"wiki","type":"file","file":"04_Wiki/README.md","x":-500,"y":0,"width":320,"height":150},
+		{"id":"github-ai-list","type":"file","file":"04_Wiki/GitHub AI工具项目清单 - 抖音 2026-05-25.md","x":-500,"y":240,"width":360,"height":170},
+		{"id":"distill","type":"file","file":"每日蒸馏·/自动化Prompt.md","x":460,"y":-220,"width":360,"height":170},
+		{"id":"knowledge-system","type":"file","file":"HOME/知识库迭代机制方案.md","x":460,"y":20,"width":360,"height":170},
+		{"id":"dashboard","type":"file","file":"HOME/知识库驾驶舱.md","x":460,"y":260,"width":360,"height":160},
+		{"id":"flow","type":"text","text":"## 推荐流转\n\nInbox 收集 -> Wiki 结构化 -> 每日蒸馏复盘 -> HOME 输出/看板","x":-20,"y":250,"width":380,"height":150}
+	],
+	"edges":[
+		{"id":"edge-inbox-center","fromNode":"inbox","toNode":"center-knowledge-map","fromSide":"right","toSide":"top"},
+		{"id":"edge-center-wiki","fromNode":"center-knowledge-map","toNode":"wiki","fromSide":"left","toSide":"right"},
+		{"id":"edge-wiki-list","fromNode":"wiki","toNode":"github-ai-list","fromSide":"bottom","toSide":"top"},
+		{"id":"edge-center-distill","fromNode":"center-knowledge-map","toNode":"distill","fromSide":"top","toSide":"left"},
+		{"id":"edge-center-system","fromNode":"center-knowledge-map","toNode":"knowledge-system","fromSide":"right","toSide":"left"},
+		{"id":"edge-center-dashboard","fromNode":"center-knowledge-map","toNode":"dashboard","fromSide":"bottom","toSide":"top"},
+		{"id":"edge-center-flow","fromNode":"center-knowledge-map","toNode":"flow","fromSide":"bottom","toSide":"top"}
+	]
+}

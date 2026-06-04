@@ -1,0 +1,65 @@
+# AI Agent 执行环境
+
+## 一句话定义
+
+AI Agent 执行环境是让模型安全调用工具、访问系统、完成任务并留下可复盘记录的一整套运行边界。
+
+## 我当前的理解
+
+Agent 的能力不只由模型决定，还由它能进入哪些系统、能调用哪些工具、权限如何限制、失败如何回滚、人类如何确认、过程是否可追踪共同决定。
+
+从 2026-06-02 的信息看，OpenAI Codex 进入 Amazon Bedrock、Microsoft 的 MagenticLite、Anthropic 的 Claude Code 沙箱实践、浏览器端 Pyodide 应用都指向同一件事：AI 正在从“回答问题”变成“在真实执行环境中做事”。执行环境越接近真实系统，安全边界和过程留痕越重要。
+
+## 关键概念
+
+- 工具权限：Agent 可以读写哪些文件、访问哪些 API、执行哪些命令。
+- 沙箱隔离：用容器、虚拟机、系统沙箱或浏览器隔离风险操作。
+- 人类确认：高风险动作执行前需要审批或确认。
+- 过程留痕：记录提示词、工具调用、代码修改、测试结果和失败原因。
+- 回滚能力：错误修改必须能定位、撤回或隔离。
+
+## 可复用方法
+
+- 评估 Agent 项目时，不只看 demo，还要看权限模型、日志、失败处理和人工确认。
+- 给个人项目接入 AI 自动化时，先限定最小权限，再逐步放开工具。
+- 对代码类 Agent，保留“需求、决策、修改、验证、回滚”的轨迹，便于复盘和解释贡献。
+- 对浏览器或本地文件系统 Agent，优先选择有沙箱、人类审批和清晰日志的方案。
+
+## 典型场景
+
+- Codex/Claude Code 参与真实代码库开发。
+- 浏览器 Agent 自动检索、填表、下载和整理资料。
+- 本地知识库 Agent 读取 Obsidian 并写回 Wiki/项目页。
+- 企业把 coding agent 接入云平台、CI/CD 和权限治理系统。
+
+## 与我的项目的关系
+
+- `Horizon 信息雷达`：需要把每日抓取、分析、失败降级和人工补检索做成可追踪流程。
+- `校园服务小程序`：未来如加入 AI 助手，应优先考虑权限、隐私和用户确认，而不是直接自动操作。
+- `个人作品集网站`：可以展示“AI 自动化工作流如何安全运行”的工程能力。
+
+## 已确认事实
+
+- 2026-06-02 日报记录了 OpenAI/Codex on AWS、MagenticLite、Claude Code 动态工作流、Pyodide ASGI 浏览器应用等相关信息。
+- `microsoft/magentic-ui` 是跨浏览器和本地文件系统的实验性 Agent UI。
+- `entireio/cli` 的方向是把 AI agent 会话和 Git 工作流绑定，形成可搜索的开发过程记录。
+
+## 待验证问题
+
+- MagenticLite 的小模型 Agent 方案在本地环境中的实际可用性如何。
+- `entireio/cli` 是否适合融入个人项目开发流程，还是只适合大型团队审计。
+- Horizon pipeline 的 AI 分析阶段是否需要沙箱、任务队列或更细粒度的失败恢复。
+
+## 资料来源
+
+- `每日蒸馏·/2026-06-02.md`
+- `Horizon/data/summaries/horizon-2026-05-31-zh.md`
+- https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/
+- https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/
+- https://www.anthropic.com/news/claude-opus-4-8
+- https://github.com/microsoft/magentic-ui
+- https://github.com/entireio/cli
+
+## 更新记录
+
+- 2026-06-02：由每日蒸馏写回，建立初版共识。

@@ -1,0 +1,49 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python / virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / build artifacts
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+
+# Nested repository metadata
+**/.git/
+Horizon/
+
+# Obsidian transient files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+
+# Local assistant/tool state
+.claude/
+.claudian/
+.superpowers/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*
+
+# Local app configuration accidentally stored in attachments
+附件/config.toml

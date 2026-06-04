@@ -1,0 +1,34 @@
+{
+  "tabManagerState": {
+    "openTabs": [
+      {
+        "tabId": "tab-1780213983617-6q0rpzh",
+        "conversationId": "conv-1780213994345-41hj1c4s1"
+      }
+    ],
+    "activeTabId": "tab-1780213983617-6q0rpzh"
+  },
+  "providerConfigs": {
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {
+        "LAPTOP-4VN19V5N": "D:\\work\\nodejs\\node_global\\opencode.ps1"
+      },
+      "enabled": true,
+      "environmentHash": "",
+      "environmentVariables": "OPENCODE_ENABLE_EXA=1",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "thinkingOptionsByModel": {},
+      "visibleModels": [
+        "opencode/big-pickle"
+      ]
+    }
+  },
+  "settingsProvider": "opencode",
+  "model": "opencode:opencode/big-pickle",
+  "savedProviderModel": {
+    "opencode": "opencode:opencode/big-pickle"
+  }
+}
