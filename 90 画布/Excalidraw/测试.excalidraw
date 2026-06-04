@@ -1,0 +1,89 @@
+---
+
+excalidraw-plugin: parsed
+
+---
+
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+
+
+# Text Elements
+Hello Excalidraw!
+
+
+# Embedded files
+
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "obsidian-excalidraw-plugin",
+  "elements": [
+    {
+      "id": "test_rect",
+      "type": "rectangle",
+      "x": 100,
+      "y": 100,
+      "width": 200,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [],
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "isDeleted": false,
+      "seed": 100
+    },
+    {
+      "id": "test_text",
+      "type": "text",
+      "x": 130,
+      "y": 135,
+      "width": 140,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "isDeleted": false,
+      "seed": 200,
+      "text": "Hello Excalidraw!",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": null,
+      "originalText": "Hello Excalidraw!",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  },
+  "files": {}
+}
+
+
+%%

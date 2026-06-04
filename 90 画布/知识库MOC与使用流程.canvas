@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"n2","type":"text","text":"📥 00_Inbox\n临时收集","fontSize":14,"backgroundColor":"#f08c00","x":40,"y":143,"width":170,"height":98,"color":"white"},
+		{"id":"n3","type":"text","text":"📂 03_Projects\n活跃项目","fontSize":14,"backgroundColor":"#2f9e44","x":230,"y":145,"width":170,"height":95,"color":"white"},
+		{"id":"n4","type":"text","text":"📘 04_Wiki\n稳定知识","fontSize":14,"backgroundColor":"#1971c2","x":420,"y":145,"width":170,"height":95,"color":"white"},
+		{"id":"n5","type":"text","text":"📆 每日蒸馏·\nAI 日报","fontSize":14,"backgroundColor":"#6741d9","x":40,"y":275,"width":170,"height":85,"color":"white"},
+		{"id":"n6","type":"text","text":"📓 Diary 个人空间\n日记复盘","fontSize":14,"backgroundColor":"#e64980","x":230,"y":275,"width":170,"height":85,"color":"white"},
+		{"id":"n7","type":"text","text":"🎨 90 画布\n可视化白板","fontSize":14,"backgroundColor":"#0c8599","x":420,"y":275,"width":170,"height":85,"color":"white"},
+		{"id":"n12","type":"text","text":"🔄 知识库使用流程","fontSize":24,"x":680,"y":-40,"width":400,"height":100},
+		{"id":"n13","type":"text","text":"🌐 信息输入层\nInbox 收集 · Horizon 抓取 · 日记记录","fontSize":14,"backgroundColor":"#f08c00","x":680,"y":110,"width":280,"height":65,"color":"white"},
+		{"id":"n14","type":"text","text":"🤖 AI 蒸馏层\n每日蒸馏· 自动编译日报","fontSize":14,"backgroundColor":"#6741d9","x":680,"y":118,"width":280,"height":143,"color":"white"},
+		{"id":"n15","type":"text","text":"🧠 人工处理层\n筛选 · 提炼核心 · 分类归档","fontSize":14,"backgroundColor":"#1971c2","x":680,"y":280,"width":280,"height":80,"color":"white"},
+		{"id":"n16","type":"text","text":"📚 知识沉淀层\n更新 Wiki 共识 · 推进 Project","fontSize":14,"backgroundColor":"#2f9e44","x":680,"y":385,"width":280,"height":85,"color":"white"},
+		{"id":"n19","type":"text","text":"⏰ 每日看蒸馏 → 每周做复盘 → 每月大迭代   |   画布 & 日记贯穿全程，驱动知识飞轮","fontSize":13,"backgroundColor":"#f8f9fa","x":0,"y":860,"width":920,"height":80},
+		{"id":"n18","type":"text","text":"🔁 复盘迭代层\n日记复盘 · 阶段复盘 · 月度迭代","fontSize":14,"backgroundColor":"#e64980","x":685,"y":640,"width":280,"height":125,"color":"white"},
+		{"id":"n17","type":"text","text":"✅ 行动驱动层\n全任务看板 → 执行落地","fontSize":14,"backgroundColor":"#e03131","x":685,"y":500,"width":280,"height":85,"color":"white"},
+		{"id":"n11","type":"text","text":"💡 Inbox → 蒸馏 → Wiki/Project → 复盘    |   所有输出写回 Wiki","fontSize":13,"backgroundColor":"#f8f9fa","x":30,"y":525,"width":550,"height":120},
+		{"id":"n0","type":"text","text":"📋 知识库 MOC 看板","fontSize":24,"x":40,"y":-140,"width":400,"height":100},
+		{"id":"n1","type":"text","text":"🏠 HOME 指挥中心\n驾驶舱 · 看板 · 方法论","fontSize":16,"backgroundColor":"#e03131","x":175,"y":5,"width":280,"height":55,"color":"white"},
+		{"id":"n10","type":"text","text":"🏛 Archives\n归档","fontSize":14,"backgroundColor":"#adb5bd","x":420,"y":390,"width":170,"height":110,"color":"white"},
+		{"id":"n9","type":"text","text":"🛠 Horizon\nAI 信息雷达","fontSize":14,"backgroundColor":"#f59f00","x":230,"y":385,"width":170,"height":110,"color":"white"},
+		{"id":"n8","type":"text","text":"📝 Templates\n模板库","fontSize":14,"backgroundColor":"#868e96","x":40,"y":385,"width":170,"height":110,"color":"white"}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"n1","fromSide":"bottom","toNode":"n2","toSide":"top","color":"#adb5bd"},
+		{"id":"e1","fromNode":"n1","fromSide":"bottom","toNode":"n3","toSide":"top","color":"#adb5bd"},
+		{"id":"e2","fromNode":"n1","fromSide":"bottom","toNode":"n4","toSide":"top","color":"#adb5bd"},
+		{"id":"e3","fromNode":"n2","fromSide":"bottom","toNode":"n5","toSide":"top","color":"#adb5bd"},
+		{"id":"e4","fromNode":"n3","fromSide":"bottom","toNode":"n6","toSide":"top","color":"#adb5bd"},
+		{"id":"e5","fromNode":"n4","fromSide":"bottom","toNode":"n7","toSide":"top","color":"#adb5bd"},
+		{"id":"e6","fromNode":"n5","fromSide":"bottom","toNode":"n8","toSide":"top","color":"#adb5bd"},
+		{"id":"e7","fromNode":"n6","fromSide":"bottom","toNode":"n9","toSide":"top","color":"#adb5bd"},
+		{"id":"e8","fromNode":"n7","fromSide":"bottom","toNode":"n10","toSide":"top","color":"#adb5bd"},
+		{"id":"e10","fromNode":"n13","fromSide":"bottom","toNode":"n14","toSide":"top","color":"#495057"},
+		{"id":"e11","fromNode":"n14","fromSide":"bottom","toNode":"n15","toSide":"top","color":"#495057"},
+		{"id":"e12","fromNode":"n15","fromSide":"bottom","toNode":"n16","toSide":"top","color":"#495057"},
+		{"id":"e13","fromNode":"n16","fromSide":"bottom","toNode":"n17","toSide":"top","color":"#495057"},
+		{"id":"e14","fromNode":"n17","fromSide":"bottom","toNode":"n18","toSide":"top","color":"#495057"}
+	],
+	"groups":[]
+}
