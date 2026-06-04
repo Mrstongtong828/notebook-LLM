@@ -7,15 +7,15 @@
 		{"id":"wins","type":"text","text":"## 本月完成\n\n- \n- \n- ","x":480,"y":-300,"width":320,"height":140},
 		{"id":"problems","type":"text","text":"## 卡点和问题\n\n- \n- \n- ","x":480,"y":-80,"width":320,"height":140},
 		{"id":"next-actions","type":"text","text":"## 下月动作\n\n- [ ] \n- [ ] \n- [ ] ","x":480,"y":140,"width":320,"height":160},
-		{"id":"archive","type":"text","text":"## 复盘后归档\n\n有长期价值的内容沉淀到 `02_Wiki` 或 `HOME`；临时材料清进 `99 附件`。","x":-20,"y":270,"width":420,"height":150}
+		{"id":"archive","type":"text","text":"## 复盘后归档\n\n有长期价值的内容沉淀到 `02_Wiki` 或 `HOME`；临时材料清进 `99 附件`。","x":120,"y":400,"width":420,"height":150}
 	],
 	"edges":[
-		{"id":"edge-center-board","fromNode":"center-review","toNode":"task-board","fromSide":"top","toSide":"right"},
-		{"id":"edge-center-diary","fromNode":"center-review","toNode":"diary","fromSide":"left","toSide":"right"},
-		{"id":"edge-center-campus","fromNode":"center-review","toNode":"campus","fromSide":"bottom","toSide":"right"},
-		{"id":"edge-center-wins","fromNode":"center-review","toNode":"wins","fromSide":"top","toSide":"bottom"},
-		{"id":"edge-center-problems","fromNode":"center-review","toNode":"problems","fromSide":"right","toSide":"left"},
-		{"id":"edge-center-next","fromNode":"center-review","toNode":"next-actions","fromSide":"right","toSide":"left"},
-		{"id":"edge-center-archive","fromNode":"center-review","toNode":"archive","fromSide":"bottom","toSide":"top"}
+		{"id":"edge-center-board","fromNode":"center-review","fromSide":"top","toNode":"task-board","toSide":"right"},
+		{"id":"edge-center-diary","fromNode":"center-review","fromSide":"left","toNode":"diary","toSide":"right"},
+		{"id":"edge-center-campus","fromNode":"center-review","fromSide":"bottom","toNode":"campus","toSide":"right"},
+		{"id":"edge-center-wins","fromNode":"center-review","fromSide":"top","toNode":"wins","toSide":"bottom"},
+		{"id":"edge-center-problems","fromNode":"center-review","fromSide":"right","toNode":"problems","toSide":"left"},
+		{"id":"edge-center-next","fromNode":"center-review","fromSide":"right","toNode":"next-actions","toSide":"left"},
+		{"id":"edge-center-archive","fromNode":"center-review","fromSide":"bottom","toNode":"archive","toSide":"top"}
 	]
 }
