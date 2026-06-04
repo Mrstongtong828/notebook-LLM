@@ -1,5 +1,3 @@
-# Horizon 信息雷达
-
 ## 当前目标
 
 把 `Horizon/` 作为每日 AI 信息雷达：抓取外部信息、筛选高价值内容、补充 GitHub 项目推荐，并把稳定结论写回 Obsidian Wiki/项目页。
@@ -41,6 +39,7 @@
 - 2026-06-02：日报已确认今天主题为“Agent 执行环境与可交付工程栈”。修正了 `preswald` 最近更新时间，新增 `02_Wiki/AI Agent 执行环境.md`。
 - 2026-06-03：Horizon 本地最新稳定摘要仍停在 `Horizon/data/summaries/horizon-2026-05-31-zh.md`；今日日报采用 OpenAI/NVIDIA RSS、GitHub API 核验与主动检索补齐。新增观察：上下文压缩、MCP 工作流、浏览器自动化可作为 Horizon pipeline 的工程化补强方向。
 - 2026-06-03 增量：补充 Microsoft Build 2026 官方线索，确认 Agent 生产化主线集中在 Foundry Agent Service、agentic apps、MCP/本地 Agent 资产治理和安全开发生命周期；GitHub 推荐切换到 `cloudflare/agents`、`microsoft/playwright-mcp`、`openai/openai-agents-js`、`microsoft/magentic-ui`。
+- 2026-06-04：本地 Horizon 最新稳定摘要仍停在 2026-05-31；日报继续采用“最近 Horizon + 外部检索 + GitHub API 核验”兜底。今日推荐主题转向浏览器自动化、深度研究、文档转 Markdown 和轻量 Agent 框架：`browser-use/browser-use`、`langchain-ai/open_deep_research`、`microsoft/markitdown`、`huggingface/smolagents`。
 
 ## 相关链接
 

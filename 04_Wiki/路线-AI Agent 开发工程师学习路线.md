@@ -47,12 +47,12 @@ status: 🚧 进行中
 
 ### 第 1 周：Python 全栈补强
 
-| 天 | 内容 | 资源 |
-|:-:|------|------|
-| 1-2 | Python 异步编程 `async/await`、`asyncio` | [官方文档](https://docs.python.org/3/library/asyncio.html) |
-| 3 | FastAPI 路由、Pydantic 校验、异步接口 | [FastAPI 教程](https://fastapi.tiangolo.com/zh/) |
-| 4-5 | 装饰器、面向对象、类型注解进阶 | [Python 教程](https://docs.python.org/3/tutorial/) |
-| 6-7 | **产出：** 用 FastAPI 搭建一个「Hello World」API + 一个简单的文件上传解析接口 | — |
+|  天  | 内容                                                     | 资源                                                     |
+| :-: | ------------------------------------------------------ | ------------------------------------------------------ |
+| 1-2 | Python 异步编程 `async/await`、`asyncio`                    | [官方文档](https://docs.python.org/3/library/asyncio.html) |
+|  3  | FastAPI 路由、Pydantic 校验、异步接口                            | [FastAPI 教程](https://fastapi.tiangolo.com/zh/)         |
+| 4-5 | 装饰器、面向对象、类型注解进阶                                        | [Python 教程](https://docs.python.org/3/tutorial/)       |
+| 6-7 | **产出：** 用 FastAPI 搭建一个「Hello World」API + 一个简单的文件上传解析接口 | —                                                      |
 
 ### 第 2 周：LLM API + 手写 minimal Agent
 
@@ -270,6 +270,7 @@ status: 🚧 进行中
 ---
 
 > **关联笔记：**
+> - [[04_Wiki/学习-Agent 系统设计实战手册]] — ⭐ **你已有实战经验的系统化整理（必读）**
 > - [[30.areas/ima-知识库/03-AI与技术/主智能体提示词]] — 你已有的 Agent 提示词设计
 > - [[30.areas/ima-知识库/03-AI与技术/笔记-非最新仅参考-多智能体协同-长时工作设计]] — 多 Agent 协同经验
 > - [[30.areas/ima-知识库/03-AI与技术/Hermes Agent 进阶：三大隐藏技能]] — Hermes Agent 实战
