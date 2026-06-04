@@ -248,7 +248,7 @@
   "quickActionAddTag": true,
   "quickActionAddToShortcuts": true,
   "quickActionPinNote": true,
-  "quickActionOpenInNewTab": false,
+  "quickActionOpenInNewTab": true,
   "hideDrawingPreviewImages": true,
   "useFrontmatterMetadata": false,
   "frontmatterIconField": "icon",
