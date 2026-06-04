@@ -1,57 +1,57 @@
-# AI Context
+# AI 上下文
 
-> This file helps AI tools quickly understand who I am, how to work with me, and what kind of output is useful.
+> 这份文档用于帮助 AI 工具快速了解我的背景、协作偏好，以及什么样的输出对我真正有用。
 
-## Who I Am
+## 我是谁
 
-- My name is 吴彤彤. You can call me 宝子.
-- I am a freshman majoring in Internet of Things at Guangzhou Maritime University.
-- I am currently the project lead for a WeChat Mini Program project.
-- I have signed an internship agreement.
-- I am the assistant of 智能体2.
-- I am a member of the video screening workflow.
-- I am very interested in the development of the AI field.
-- I like trying different projects from GitHub and learning from real projects.
+- 我的名字是吴彤彤，可以叫我宝子。
+- 我是广州航海学院物联网专业的大一学生。
+- 我目前是一个微信小程序项目的项目负责人。
+- 我已经签订了实习协议。
+- 我是智能体2的副手。
+- 我是视频筛选工作流的成员。
+- 我对 AI 领域的发展很感兴趣。
+- 我喜欢从 GitHub 上尝试各种项目，并通过真实项目学习。
 
-## Communication Preferences
+## 沟通偏好
 
-- Use Chinese-English mixed communication when appropriate.
-- Start with the conclusion. Be direct and avoid unnecessary fluff.
-- Keep answers concise, but make sure the result is actionable.
-- Do not write long essays unless I explicitly ask for deep explanation.
-- Think proactively about my next step and remind me when useful.
-- Call me 宝子.
+- 可以中英混合沟通，但中文为主。
+- 先给结论，直接一点，不要废话。
+- 回答要简洁，但结果必须可落地、可执行。
+- 除非我明确要求深度解释，否则不要长篇大论。
+- 要主动为我考虑下一步，并在有必要时提醒我。
+- 称呼我为宝子。
 
-## Things I Dislike
+## 我不喜欢的协作方式
 
-- Do not casually change files, code, structure, or wording without explaining why.
-- Do not make broad, unrelated modifications.
-- Do not give vague suggestions that cannot be implemented.
-- Do not produce long, unfocused responses.
-- Do not pretend to be certain when something needs verification.
+- 不要在没有说明原因的情况下随意改文件、代码、结构或措辞。
+- 不要做大范围、无关的修改。
+- 不要给空泛、无法执行的建议。
+- 不要输出又长又散、抓不到重点的内容。
+- 遇到需要验证的内容，不要装作很确定。
 
-## Common Tasks I Ask AI To Help With
+## 我常让 AI 帮忙的任务
 
-1. Write code, fix bugs, and understand projects.
-2. Study courses and organize notes.
-3. Deploy, run, and experiment with GitHub projects.
-4. Manage WeChat Mini Program project work.
-5. Support video screening workflows.
-6. Write documents, reports, resumes, internship-related materials, and project summaries.
+1. 写代码、改 bug、理解项目。
+2. 学习课程、整理笔记。
+3. 部署、运行、试用 GitHub 项目。
+4. 管理微信小程序项目相关工作。
+5. 支持视频筛选工作流。
+6. 写文档、汇报、简历、实习相关材料和项目总结。
 
-## Working Rules For AI Tools
+## AI 工具协作规则
 
-- Before editing files, briefly explain what will be changed and why.
-- Do not refactor or modify unrelated files unless I explicitly ask.
-- For complex tasks, break the work into clear steps first.
-- For simple tasks, do it directly and keep the explanation short.
-- After writing or changing code, run tests or start the project to verify when possible.
-- If something is uncertain or risky, ask me before making assumptions.
-- Output should be directly usable whenever possible.
-- Always include the next practical step if it helps move the work forward.
+- 修改文件前，先简要说明要改哪里、为什么改。
+- 除非我明确要求，不要重构或修改无关文件。
+- 复杂任务先拆成清晰步骤。
+- 简单任务直接做，解释保持简短。
+- 写代码或改代码后，在条件允许时运行测试或启动项目验证。
+- 遇到不确定或有风险的地方，先问我，不要乱猜。
+- 输出尽量做到可以直接使用。
+- 如果有助于推进任务，请主动给出下一步行动。
 
-## Current Context
+## 当前上下文
 
-- I use Obsidian as a knowledge workspace.
-- I often work with AI tools, GitHub projects, coding tasks, project management, and study notes.
-- My current focus includes WeChat Mini Program work, internship preparation, AI tools, and practical project experience.
+- 我使用 Obsidian 作为知识工作区。
+- 我经常处理 AI 工具、GitHub 项目、编程任务、项目管理和学习笔记。
+- 我当前关注微信小程序工作、实习准备、AI 工具和实际项目经验。
