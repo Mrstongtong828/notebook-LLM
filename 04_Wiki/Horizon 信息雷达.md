@@ -40,6 +40,7 @@
 - 2026-06-03：Horizon 本地最新稳定摘要仍停在 `Horizon/data/summaries/horizon-2026-05-31-zh.md`；今日日报采用 OpenAI/NVIDIA RSS、GitHub API 核验与主动检索补齐。新增观察：上下文压缩、MCP 工作流、浏览器自动化可作为 Horizon pipeline 的工程化补强方向。
 - 2026-06-03 增量：补充 Microsoft Build 2026 官方线索，确认 Agent 生产化主线集中在 Foundry Agent Service、agentic apps、MCP/本地 Agent 资产治理和安全开发生命周期；GitHub 推荐切换到 `cloudflare/agents`、`microsoft/playwright-mcp`、`openai/openai-agents-js`、`microsoft/magentic-ui`。
 - 2026-06-04：本地 Horizon 最新稳定摘要仍停在 2026-05-31；日报继续采用“最近 Horizon + 外部检索 + GitHub API 核验”兜底。今日推荐主题转向浏览器自动化、深度研究、文档转 Markdown 和轻量 Agent 框架：`browser-use/browser-use`、`langchain-ai/open_deep_research`、`microsoft/markitdown`、`huggingface/smolagents`。
+- 2026-06-05：本地 Horizon 仍未发现 6 月新摘要；日报采用官方源与 GitHub API 兜底，主题转为本地 Agent 运行治理、长期记忆和机器人基础模型。推荐项目包括 `NevaMind-AI/memU`、`NVIDIA/Isaac-GR00T`、`Fosowl/agenticSeek`、`Gentleman-Programming/engram`。下一步仍需给 pipeline 增加超时、日志和失败降级。
 
 ## 相关链接
 
