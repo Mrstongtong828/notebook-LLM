@@ -101,7 +101,40 @@
         "mode": "default",
         "focus": true
       }
-    }
+    },
+      {
+        "id": "template-study-card",
+        "name": "新建：课程学习卡",
+        "type": "Template",
+        "command": true,
+        "template": {
+          "templatePath": "99_Templates/课程学习卡模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}-本周学习卡"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "课程学习"
+            ]
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical"
+          }
+        },
+        "fileExistsBehavior": {
+          "kind": "prompt"
+        },
+        "fileOpening": {
+          "location": "tab",
+          "direction": "vertical",
+          "mode": "default",
+          "focus": true
+        }
+      }
   ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,

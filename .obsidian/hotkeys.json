@@ -42,5 +42,14 @@
       ],
       "key": "P"
     }
+  ],
+  "quickadd:choice:template-study-card": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }

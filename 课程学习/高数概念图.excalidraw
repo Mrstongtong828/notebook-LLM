@@ -1,0 +1,351 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "obsidian-excalidraw-plugin",
+  "elements": [
+    {
+      "id": "rect-concept",
+      "type": "rectangle",
+      "x": 100,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 100001,
+      "version": 1,
+      "versionNonce": 100001,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "text-concept"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-cf"
+        }
+      ],
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "customData": null
+    },
+    {
+      "id": "text-concept",
+      "type": "text",
+      "x": 130,
+      "y": 227.5,
+      "width": 100,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 100002,
+      "version": 1,
+      "versionNonce": 100002,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "text": "概念",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect-concept",
+      "originalText": "概念",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "rect-formula",
+      "type": "rectangle",
+      "x": 400,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 100003,
+      "version": 1,
+      "versionNonce": 100003,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "text-formula"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-cf"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-fe"
+        }
+      ],
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "customData": null
+    },
+    {
+      "id": "text-formula",
+      "type": "text",
+      "x": 430,
+      "y": 227.5,
+      "width": 100,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 100004,
+      "version": 1,
+      "versionNonce": 100004,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "text": "公式",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect-formula",
+      "originalText": "公式",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "rect-example",
+      "type": "rectangle",
+      "x": 700,
+      "y": 200,
+      "width": 160,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 100005,
+      "version": 1,
+      "versionNonce": 100005,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "text-example"
+        },
+        {
+          "type": "arrow",
+          "id": "arrow-fe"
+        }
+      ],
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "customData": null
+    },
+    {
+      "id": "text-example",
+      "type": "text",
+      "x": 730,
+      "y": 227.5,
+      "width": 100,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 100006,
+      "version": 1,
+      "versionNonce": 100006,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "text": "例题",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rect-example",
+      "originalText": "例题",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "arrow-cf",
+      "type": "arrow",
+      "x": 260,
+      "y": 240,
+      "width": 140,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 100007,
+      "version": 1,
+      "versionNonce": 100007,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          140,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "rect-concept",
+        "focus": 0,
+        "gap": 0,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "rect-formula",
+        "focus": 0,
+        "gap": 0,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "arrow-fe",
+      "type": "arrow",
+      "x": 560,
+      "y": 240,
+      "width": 140,
+      "height": 0,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 100008,
+      "version": 1,
+      "versionNonce": 100008,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          140,
+          0
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "rect-formula",
+        "focus": 0,
+        "gap": 0,
+        "fixedPoint": null
+      },
+      "endBinding": {
+        "elementId": "rect-example",
+        "focus": 0,
+        "gap": 0,
+        "fixedPoint": null
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
