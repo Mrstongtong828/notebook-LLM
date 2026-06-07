@@ -47,3 +47,9 @@ Horizon/
 
 # Local app configuration accidentally stored in attachments
 附件/config.toml
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

@@ -4,11 +4,16 @@
   "obsidian-kanban",
   "notebook-navigator",
   "terminal",
-  "obsidian42-brat",
   "oz-clear-unused-images",
   "cmdr",
   "dataview",
   "file-explorer-note-count",
   "obsidian-full-calendar",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "journals",
+  "omnisearch",
+  "obsidian-hover-editor",
+  "quickadd",
+  "smart-connections"
 ]
