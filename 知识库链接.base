@@ -1,3 +1,7 @@
 views:
   - type: table
     name: 表格
+    order:
+      - file.basename
+      - file.links
+      - file.folder
