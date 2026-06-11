@@ -7,3 +7,4 @@
 在Codex·中打开终端，唤出claudecode来设计前端页面
 帮我部署这个个人网站，使用vercel
 ![[Pasted image 20260609235811.png]]![[Pasted image 20260609235853.png]]
+![[Pasted image 20260611193744.png]]
