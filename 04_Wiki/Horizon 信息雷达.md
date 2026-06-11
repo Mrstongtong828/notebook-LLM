@@ -43,6 +43,7 @@
 - 2026-06-05：本地 Horizon 仍未发现 6 月新摘要；日报采用官方源与 GitHub API 兜底，主题转为本地 Agent 运行治理、长期记忆和机器人基础模型。推荐项目包括 `NevaMind-AI/memU`、`NVIDIA/Isaac-GR00T`、`Fosowl/agenticSeek`、`Gentleman-Programming/engram`。下一步仍需给 pipeline 增加超时、日志和失败降级。
 - 2026-06-07：尝试运行 `uv run horizon --hours 48`。默认 Windows GBK 控制台会因 Rich emoji 输出触发 `UnicodeEncodeError`；设置 `PYTHONIOENCODING=utf-8`、`PYTHONUTF8=1` 和 `TERM=xterm` 后不再立即崩溃，但 180 秒内未产出新 summary。日报继续采用旧 Horizon 摘要、官方/新闻源检索与 GitHub API 兜底。下一步优先修 UTF-8/无 emoji 启动方式、阶段级日志、超时和失败空跑记录。
 - 2026-06-08：再次以 UTF-8 环境运行 `uv run horizon --hours 24`，90 秒内超时，`Horizon/data/summaries/` 未出现 2026-06-08 新摘要。结论保持不变：下一步不应继续扩源，而应先加阶段级日志、超时定位、失败空跑记录和 Windows 控制台兼容。
+- 2026-06-11：再次设置 `PYTHONIOENCODING=utf-8`、`PYTHONUTF8=1`、`TERM=xterm` 后运行 `uv run horizon --hours 24`，120 秒内仍超时，`Horizon/data/summaries/` 仍只有 2026-05-31 中英文摘要。今日继续用 OpenAI RSS、GitHub Changelog、NVIDIA Blog 与 `gh repo view` 兜底。下一步必须先加阶段级日志和失败降级，避免继续盲跑。
 
 ## 相关链接
 
