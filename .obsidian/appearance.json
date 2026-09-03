@@ -1,7 +1,7 @@
 {
-  "theme": "obsidian",
-  "accentColor": "",
-  "cssTheme": "Light & Bright",
-  "baseFontSize": 16,
+  "theme": "moonstone",
+  "accentColor": "#65e0e2",
+  "cssTheme": "Primary",
+  "baseFontSize": 21,
   "nativeMenus": false
 }
